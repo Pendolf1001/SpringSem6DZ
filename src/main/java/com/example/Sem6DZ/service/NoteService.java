@@ -35,12 +35,12 @@ public class NoteService {
     }
 
 
-    public Note createProduct(Note note) {
+    public Note createNote(Note note) {
         return repository.save(note);
     }
 
 
-    public void deleteProduct(Long id) {
+    public void deleteNote(Long id) {
         repository.deleteById(id);
 
     }
